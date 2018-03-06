@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple, slender and semantic forms</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<form>
+    		<fieldset>
+			<label><b>Formulario</b>
+			</label>
+		</fieldset>
+		<fieldset>
+			<label><b>Nombre</b>
+				<input type="text" id="name" name="name">
+			</label>
+
+			<label><b>Email</b>
+				<input type="email" id="email" name="email">
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<p><strong>Sexo</strong></p>
+
+			<label><b>Masc</b>
+				<input type="radio" id="sex-male" name="sex" value="male">
+			</label>
+
+			<label><b>Fem</b>
+				<input type="radio" id="sex-female" name="sex" value="female">
+			</label>
+			
+			<label><b>Edad</b>
+				<select id="age" name="age">
+					<option value="18-25">18-25</option>
+					<option value="26-35">26-35</option>
+					<option value="36-45">36-45</option>
+					<option value="46-55">46-55</option>
+				</select>
+			</label>
+			
+		</fieldset>
+		
+		<fieldset>
+			<label><b>Bio</b>
+				<textarea id="bio" name="bio" cols="30" rows="5"></textarea>
+			</label>
+		</fieldset>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
